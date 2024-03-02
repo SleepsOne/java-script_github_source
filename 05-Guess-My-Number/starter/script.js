@@ -70,7 +70,7 @@ function() {
       document.querySelector('.score').textContent = score;
     }
     else {
-      displayMessage('You are out of tries!');
+      displayMessage('💥You are out of tries, Loser !');
       document.querySelector('.score').textContent = 0;
     }
   }
@@ -85,6 +85,7 @@ function() {
   document.querySelector(".number").textContent= "?";
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
+  document.querySelector('.guess').value = none;
   
 
   score = 20;
