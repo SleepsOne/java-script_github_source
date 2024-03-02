@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: cadetblue;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.first {
+  background-color: white;
+  color: blueviolet;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.second {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#my-snap {
+  background-color: white;
+  color: black;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 10px solid black;
+}
+
+#user-information {
+  background-color: chocolate;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#user-information {
+  width: 400px;
+  /* text-align: center; */
+  margin-left: 175px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  color: brown;
+  background-color: burlywood;
+}
+#my-snap {
+  width: 100px;
+}
+#personality h2 {
+  color: aquamarine;
+  background-color: black;
+}
