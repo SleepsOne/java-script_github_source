@@ -209,7 +209,6 @@ var addArrow = (a, b) => {
 addArrow(2, 5, 8);
 
 /*
-*/
 
 ///////////////////////////////////////
 // Objects vs. primitives
@@ -230,6 +229,7 @@ console.log('Me', me);
 
 
 ///////////////////////////////////////
+*/
 // Primitives vs. Objects in Practice
 
 // Primitive types
@@ -244,13 +244,16 @@ const jessica = {
   lastName: 'Williams',
   age: 27,
 };
+
+
 const marriedJessica = jessica;
 marriedJessica.lastName = 'Davis';
 console.log('Before marriage:', jessica);
 console.log('After marriage: ', marriedJessica);
 // marriedJessica = {};
+// console.log(marriedJessica);
 
-// Copying objects
+// Copying objects: change the object but just a copy, not impact to the original one.
 const jessica2 = {
   firstName: 'Jessica',
   lastName: 'Williams',
@@ -259,6 +262,7 @@ const jessica2 = {
 };
 
 const jessicaCopy = Object.assign({}, jessica2);
+console.log(jessicaCopy);
 jessicaCopy.lastName = 'Davis';
 
 jessicaCopy.family.push('Mary');
