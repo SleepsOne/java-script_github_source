@@ -254,7 +254,7 @@ console.log('B737'.length);
 
 console.log(airline.indexOf('r'));
 console.log(airline.lastIndexOf('r'));
-console.log(airline.indexOf('portugal'));
+console.log(airline.indexOf('portugal')); -1: n ot found
 
 console.log(airline.slice(4));
 console.log(airline.slice(4, 7));
@@ -324,7 +324,7 @@ console.log(
   `An event happened, on average, every ${90 / gameEvents.size} minutes`
 );
 const time = [...gameEvents.keys()].pop();
-console.log(time);
+console.log(time
 console.log(
   `An event happened, on average, every ${time / gameEvents.size} minutes`
 );
