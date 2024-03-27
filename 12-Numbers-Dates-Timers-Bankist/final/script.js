@@ -586,6 +586,7 @@ const days1 = calcDaysPassed(new Date(2037, 3, 4), new Date(2037, 3, 14));
 console.log(days1);
 
 
+*/
 ///////////////////////////////////////
 // Internationalizing Numbers (Intl)
 const num = 3884764.23;
@@ -603,9 +604,9 @@ console.log('Syria:   ', new Intl.NumberFormat('ar-SY', options).format(num));
 console.log(
   navigator.language,
   new Intl.NumberFormat(navigator.language, options).format(num)
-);
-
-
+  );
+  
+  
 ///////////////////////////////////////
 // Timers
 
@@ -625,4 +626,3 @@ setInterval(function () {
   const now = new Date();
   console.log(now);
 }, 1000);
-*/
